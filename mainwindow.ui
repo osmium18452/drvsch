@@ -755,97 +755,6 @@
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="dispCoach">
-   <property name="geometry">
-    <rect>
-     <x>850</x>
-     <y>100</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>显示所有教练信息</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="dispLess">
-   <property name="geometry">
-    <rect>
-     <x>850</x>
-     <y>200</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>显示所有课程信息</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="dispStd">
-   <property name="geometry">
-    <rect>
-     <x>850</x>
-     <y>150</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>显示所有学员信息</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="dispExam">
-   <property name="geometry">
-    <rect>
-     <x>850</x>
-     <y>250</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>显示所有考试信息</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="dispField">
-   <property name="geometry">
-    <rect>
-     <x>850</x>
-     <y>300</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>显示所有场地信息</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="dispBatchLess">
-   <property name="geometry">
-    <rect>
-     <x>850</x>
-     <y>350</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>显示每批上课统计信息</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="dispBatchExam">
-   <property name="geometry">
-    <rect>
-     <x>850</x>
-     <y>400</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>显示每批考试统计信息</string>
-   </property>
-  </widget>
   <widget class="Line" name="line_6">
    <property name="geometry">
     <rect>
@@ -890,7 +799,7 @@
     <rect>
      <x>540</x>
      <y>650</y>
-     <width>541</width>
+     <width>241</width>
      <height>16</height>
     </rect>
    </property>
@@ -928,7 +837,7 @@
    <property name="geometry">
     <rect>
      <x>780</x>
-     <y>430</y>
+     <y>650</y>
      <width>301</width>
      <height>16</height>
     </rect>
@@ -941,7 +850,7 @@
    <property name="geometry">
     <rect>
      <x>910</x>
-     <y>460</y>
+     <y>690</y>
      <width>54</width>
      <height>12</height>
     </rect>
@@ -954,7 +863,7 @@
    <property name="geometry">
     <rect>
      <x>860</x>
-     <y>480</y>
+     <y>710</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -964,7 +873,7 @@
    <property name="geometry">
     <rect>
      <x>800</x>
-     <y>480</y>
+     <y>710</y>
      <width>54</width>
      <height>16</height>
     </rect>
@@ -977,7 +886,7 @@
    <property name="geometry">
     <rect>
      <x>990</x>
-     <y>480</y>
+     <y>710</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -990,7 +899,7 @@
    <property name="geometry">
     <rect>
      <x>800</x>
-     <y>520</y>
+     <y>750</y>
      <width>54</width>
      <height>16</height>
     </rect>
@@ -1003,7 +912,7 @@
    <property name="geometry">
     <rect>
      <x>860</x>
-     <y>520</y>
+     <y>750</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -1016,7 +925,7 @@
    <property name="geometry">
     <rect>
      <x>990</x>
-     <y>520</y>
+     <y>750</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -1042,7 +951,7 @@
    <property name="geometry">
     <rect>
      <x>800</x>
-     <y>850</y>
+     <y>840</y>
      <width>241</width>
      <height>16</height>
     </rect>
@@ -1055,23 +964,13 @@
    <property name="geometry">
     <rect>
      <x>800</x>
-     <y>870</y>
+     <y>860</y>
      <width>191</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
     <string>All rights reserved</string>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="graphicsView">
-   <property name="geometry">
-    <rect>
-     <x>800</x>
-     <y>670</y>
-     <width>261</width>
-     <height>171</height>
-    </rect>
    </property>
   </widget>
   <widget class="QPushButton" name="addFieldButton">
@@ -1086,6 +985,67 @@
    <property name="text">
     <string>确认添加</string>
    </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>90</y>
+     <width>191</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="dispCoach">
+      <property name="text">
+       <string>显示所有教练信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="dispStd">
+      <property name="text">
+       <string>显示所有学员信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="dispLess">
+      <property name="text">
+       <string>显示所有课程信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="dispExam">
+      <property name="text">
+       <string>显示所有考试信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="dispField">
+      <property name="text">
+       <string>显示所有场地信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="dispBatchLess">
+      <property name="text">
+       <string>显示每批上课统计信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="dispBatchExam">
+      <property name="text">
+       <string>显示每批考试统计信息</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

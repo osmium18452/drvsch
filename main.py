@@ -13,9 +13,9 @@ class Window(QMainWindow, Ui_Form):
 		
 		# connect the database
 		try:
-			self.conn = pymysql.connect(host="10.70.157.47",
-										user="admin",
-										passwd="fushuai",
+			self.conn = pymysql.connect(host="",
+										user="",
+										passwd="",
 										charset="utf8")
 			self.cur = self.conn.cursor()
 			self.conn.select_db("drive_school")
@@ -56,6 +56,7 @@ class Window(QMainWindow, Ui_Form):
 	def addCoach(self):
 		cno = self.coachNum.text()
 		cname = self.coachName.text()
+		print(cname)
 		if cno == "" or cname == "":
 			self.displayBox.append("请输入教练的姓名和编号！")
 			return
